@@ -20,8 +20,6 @@ city-trip-planner/        # Skill 本体
   assets/                 # 输出模板
   evals/                  # 42 项单元测试 + 测试夹具（TEST DATA ONLY）
 chengdu_e2e/              # 成都真实端到端示例（Photon/OSM 坐标）
-xhs_images/               # 小红书配图（4 张 1080x1440）
-xhs_notes_package.md      # 小红书笔记素材包
 research_report_*.md      # 产品调研报告
 research_plan_*.md        # 调研计划
 scripts/                  # 调研检索脚本
@@ -56,7 +54,6 @@ python -m unittest discover -s evals -p "test_*.py"
 ## 发布状态
 
 - 华为云 Skill 市场：`city-trip-planner`（通用场景 / 生活方式）
-- 小红书 Skill 市场：`出行游玩规划`（已提交审核）
 
 ## 免责声明
 
