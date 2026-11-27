@@ -1,0 +1,9 @@
+.codeartsdoer/
+auth-qr.png
+*.zip
+*.bundle
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*

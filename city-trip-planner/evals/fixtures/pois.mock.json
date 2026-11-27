@@ -1,0 +1,98 @@
+{
+  "_meta": "TEST DATA ONLY — 仅用于路线算法单元测试，所有名称为虚构测试点位，不代表任何真实店铺",
+  "options": {
+    "date": "2026-12-05",
+    "start_time": "09:30",
+    "end_time": "21:00",
+    "party": "general",
+    "trip_type": "local_fullday",
+    "budget_level": "mid",
+    "max_walk_km": 6,
+    "start_point": {"lat": 30.6695, "lng": 104.055},
+    "members": [
+      {"band": "36-50", "count": 2},
+      {"band": "7-12", "count": 1},
+      {"band": "61-70", "count": 1}
+    ],
+    "activities": ["food", "street", "mall", "museum"]
+  },
+  "pois": [
+    {
+      "id": "t1",
+      "name": "测试点位-街区A",
+      "lat": 30.669,
+      "lng": 104.0555,
+      "category": "street",
+      "tier": "core",
+      "dwell_min": 60,
+      "open_time": "09:00",
+      "close_time": "22:00",
+      "must_visit": true,
+      "confidence": "verified",
+      "verified_at": "2026-11-20"
+    },
+    {
+      "id": "t2",
+      "name": "测试点位-小吃B",
+      "lat": 30.67,
+      "lng": 104.056,
+      "category": "food",
+      "tier": "normal",
+      "dwell_min": 60,
+      "open_time": "10:00",
+      "close_time": "21:00",
+      "queue_min": 30,
+      "confidence": "verified"
+    },
+    {
+      "id": "t3",
+      "name": "测试点位-商场C",
+      "lat": 30.668,
+      "lng": 104.0545,
+      "category": "mall",
+      "tier": "normal",
+      "dwell_min": 45,
+      "open_time": "10:00",
+      "close_time": "22:00",
+      "indoor": true,
+      "confidence": "pending"
+    },
+    {
+      "id": "t4",
+      "name": "测试点位-景点D",
+      "lat": 30.657,
+      "lng": 104.081,
+      "category": "attraction",
+      "tier": "core",
+      "dwell_min": 90,
+      "open_time": "08:30",
+      "close_time": "17:30",
+      "has_stairs": true,
+      "step_count": 120,
+      "confidence": "verified"
+    },
+    {
+      "id": "t5",
+      "name": "测试点位-小吃E",
+      "lat": 30.658,
+      "lng": 104.08,
+      "category": "food",
+      "tier": "optional",
+      "dwell_min": 60,
+      "open_time": "11:00",
+      "close_time": "21:00",
+      "confidence": "pending"
+    },
+    {
+      "id": "t6",
+      "name": "测试点位-闭馆F",
+      "lat": 30.6695,
+      "lng": 104.055,
+      "category": "mall",
+      "tier": "normal",
+      "dwell_min": 60,
+      "closed_days": [5],
+      "confidence": "verified"
+    }
+  ]
+}

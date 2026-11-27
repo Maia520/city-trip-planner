@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "provider": "photon",
+    "coordinate_system": "WGS84",
+    "city": "成都",
+    "fetched_at": "2026-11-27",
+    "note": "真实数据源检索结果；营业时间与运营状态需出行前核实。不同 provider 坐标系不同，禁止混用。"
+  },
+  "pois": [
+    {
+      "name": "龙抄手",
+      "lat": 30.676354,
+      "lng": 104.070149,
+      "category": "food",
+      "address": "金马街 / 文殊坊 / 草市街街道 / 成都市",
+      "open_time": null,
+      "close_time": null,
+      "source": "photon:osm",
+      "confidence": "pending",
+      "note": "OpenStreetMap 数据；营业时间与运营状态需出行前核实",
+      "tier": "normal",
+      "dwell_min": 75,
+      "must_visit": false,
+      "id": "photon-1",
+      "verified_at": "2026-11-27",
+      "query": "龙抄手"
+    },
+    {
+      "name": "陈麻婆豆腐",
+      "lat": 30.681935,
+      "lng": 104.015549,
+      "category": "food",
+      "address": "同盛路 / 同德社区 / 府南街道 / 成都市",
+      "open_time": null,
+      "close_time": null,
+      "source": "photon:osm",
+      "confidence": "pending",
+      "note": "OpenStreetMap 数据；营业时间与运营状态需出行前核实",
+      "tier": "normal",
+      "dwell_min": 75,
+      "must_visit": false,
+      "id": "photon-2",
+      "verified_at": "2026-11-27",
+      "query": "陈麻婆豆腐"
+    },
+    {
+      "name": "钟水饺",
+      "lat": 30.670339,
+      "lng": 104.097961,
+      "category": "food",
+      "address": "建设路 / 建设公寓 / 猛追湾街道 / 成都市",
+      "open_time": null,
+      "close_time": null,
+      "source": "photon:osm",
+      "confidence": "pending",
+      "note": "OpenStreetMap 数据；营业时间与运营状态需出行前核实",
+      "tier": "normal",
+      "dwell_min": 75,
+      "must_visit": false,
+      "id": "photon-3",
+      "verified_at": "2026-11-27",
+      "query": "钟水饺"
+    }
+  ]
+}
